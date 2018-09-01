@@ -17,6 +17,7 @@
 	<modules>
 		<module>java-serializer</module>
 		<module>jdk-new-feature</module>
+		<module>common-algorithm</module>
 	</modules>
 
 </project>
