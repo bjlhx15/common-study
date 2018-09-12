@@ -3,11 +3,13 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.lhx.java</groupId>
 	<artifactId>jdk-new-feature</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-
+	<parent>
+		<groupId>com.lhx.java</groupId>
+		<artifactId>common-study</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
 	<description>Demo project for Spring Cloud</description>
 	<modules>
 		<module>newfeature-jdk6</module>

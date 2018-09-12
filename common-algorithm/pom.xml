@@ -3,12 +3,14 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.lhx.java</groupId>
 	<artifactId>common-algorithm</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<description>Demo project for Spring Cloud</description>
+	<parent>
+		<groupId>com.lhx.java</groupId>
+		<artifactId>common-study</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
 	<modules>
 		<module>guava-consistenthash</module>
 	</modules>
