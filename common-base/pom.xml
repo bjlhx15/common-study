@@ -3,7 +3,7 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>common-algorithm</artifactId>
+	<artifactId>common-base</artifactId>
 	<packaging>pom</packaging>
 	<parent>
 		<groupId>com.lhx.springcloud</groupId>
@@ -12,8 +12,7 @@
 	</parent>
 	<description>Demo project for Spring Cloud</description>
 	<modules>
-		<module>guava-consistenthash</module>
-		<module>alphabet-sequence</module>
+		<module>common-thread</module>
 	</modules>
 
 	<properties>
