@@ -18,6 +18,7 @@
 		<module>java-serializer</module>
 		<module>jdk-new-feature</module>
 		<module>common-algorithm</module>
+		<module>springmvc-service</module>
 		<module>common-base</module>
 	</modules>
 

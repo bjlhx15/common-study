@@ -5,12 +5,12 @@
 
 	<artifactId>common-algorithm</artifactId>
 	<packaging>pom</packaging>
+
 	<parent>
-		<groupId>com.lhx.springcloud</groupId>
+		<groupId>com.lhx.java</groupId>
 		<artifactId>common-study</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<description>Demo project for Spring Cloud</description>
 	<modules>
 		<module>guava-consistenthash</module>
 		<module>alphabet-sequence</module>
