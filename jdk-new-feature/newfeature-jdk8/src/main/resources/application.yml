@@ -1,0 +1,5 @@
+server:
+  port: 7900
+spring:
+  application:
+    name: microservice-provider-user-v1 # 建议小写
