@@ -25,6 +25,7 @@ public class TestPreInterface {
         // 长度大于5 取反  false
         System.out.println(!length5.test(tempStr));
 
+
     }
 }
 
