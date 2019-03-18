@@ -13,6 +13,7 @@
 	</parent>
 	<modules>
 		<module>guava-consistenthash</module>
+		<module>alphabet-sequence</module>
 	</modules>
 
 	<properties>

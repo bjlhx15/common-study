@@ -3,7 +3,7 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>jdk-new-feature</artifactId>
+	<artifactId>common-base</artifactId>
 	<packaging>pom</packaging>
 	<parent>
 		<groupId>com.lhx.java</groupId>
@@ -12,10 +12,7 @@
 	</parent>
 	<description>Demo project for Spring Cloud</description>
 	<modules>
-		<module>newfeature-jdk6</module>
-		<module>newfeature-jdk7</module>
-		<module>newfeature-jdk8</module>
-		<module>newfeature-jdk-other</module>
+		<module>common-thread</module>
 	</modules>
 
 	<properties>
