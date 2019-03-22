@@ -20,6 +20,7 @@
 		<module>common-algorithm</module>
 		<module>springmvc-service</module>
 		<module>common-base</module>
+		<module>p001_jms</module>
 	</modules>
 
 </project>
