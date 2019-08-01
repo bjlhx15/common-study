@@ -11,9 +11,14 @@
 	<description>Demo project for Spring Cloud</description>
 	<properties>
 		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
+		<spring-cloud.version>Finchley.SR1</spring-cloud.version>
+		<spring-boot.version>2.0.4.RELEASE</spring-boot.version>
 	</properties>
+
 	<modules>
 		<module>java-serializer</module>
 		<module>jdk-new-feature</module>
@@ -21,6 +26,15 @@
 		<module>springmvc-service</module>
 		<module>common-base</module>
 		<module>p001_jms</module>
+		<module>common-log</module>
+		<module>common-http</module>
 	</modules>
 
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+	</dependencies>
 </project>
