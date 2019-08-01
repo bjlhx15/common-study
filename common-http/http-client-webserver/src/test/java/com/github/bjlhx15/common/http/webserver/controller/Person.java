@@ -1,4 +1,4 @@
-package com.github.bjlhx15.common.http.webserver.controller.entity;
+package com.github.bjlhx15.common.http.webserver.controller;
 
 public class Person {
     private String name;
@@ -18,5 +18,13 @@ public class Person {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
