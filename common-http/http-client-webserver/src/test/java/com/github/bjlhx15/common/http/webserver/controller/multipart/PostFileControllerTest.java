@@ -35,7 +35,7 @@ public class PostFileControllerTest {
 
     @Test
     public void uploadFileParam() {
-        RestTemplate restTemplate2 = new RestTemplate(new OkHttp3ClientHttpRequestFactory());
+        RestTemplate restTemplate2 = new RestTemplate(new SimpleClientHttpRequestFactory());
         //设置请求头
         HttpHeaders headers1 = new HttpHeaders();
         headers1.setContentType(MediaType.MULTIPART_FORM_DATA);

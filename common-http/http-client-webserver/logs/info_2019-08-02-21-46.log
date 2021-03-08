@@ -1,0 +1,2 @@
+[2019-08-02 21:46:37:403-main] [INFO] - org.springframework.core.KotlinDetector.<clinit>(KotlinDetector.java:57) - Kotlin reflection implementation not found at runtime, related features won't be available.
+[2019-08-02 21:46:37:421-main] [WARN] - org.springframework.core.log.CompositeLog.warn(CompositeLog.java:122) - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath

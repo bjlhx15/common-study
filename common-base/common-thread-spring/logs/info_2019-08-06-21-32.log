@@ -1,0 +1,2 @@
+[2019-08-06 21:32:53:657-Thread-1] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService
+[2019-08-06 21:32:53:658-Thread-1] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'taskExecutor'

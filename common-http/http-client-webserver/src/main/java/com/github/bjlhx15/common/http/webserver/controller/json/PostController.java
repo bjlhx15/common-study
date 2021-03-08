@@ -20,21 +20,23 @@ public class PostController {
 
     @RequestMapping("/params")
     @ResponseBody
-    public Object params(String id, String msg) {
+    public Object params(String id, String msg,String name) {
         Map<String, String> map = new HashMap<>();
         map.put("code", "2000");
         map.put("id", id);
         map.put("message", msg);
+        map.put("name", name);
         return map;
     }
 
     @RequestMapping("/params1")
     @ResponseBody
-    public Object params1(@RequestParam("id")String id,@RequestParam("msg") String message) {
+    public Object params1(@RequestParam("id")String id,@RequestParam("msg") String message,String name) {
         Map<String, String> map = new HashMap<>();
         map.put("code", "2000");
         map.put("id", id);
         map.put("message", message);
+        map.put("name", name);
         return map;
     }
 

@@ -70,6 +70,10 @@ public class PostControllerTest {
         Result result2 = restTemplate.postForObject("http://localhost:8080/json/paramsobject", entity, Result.class);
         System.out.println(result2);
 
+
+        Result result3 = restTemplate.postForObject("http://localhost:8080/json/paramsobject?name=aaa", entity, Result.class);
+        System.out.println(result3);
+
     }
 
     @Test
